@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\flag.png" />
+    <None Remove="Resources\mine.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\flag.png" />
+    <Resource Include="Resources\mine.png" />
+  </ItemGroup>
+
+</Project>
